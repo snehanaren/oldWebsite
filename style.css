@@ -23,12 +23,11 @@ h1 {
 	text-align: center;
 	font-family: 'Playfair Display', serif;
 	color : #231520;
-
 }
 
 
 .shape {
-	margin-top: 35vh;
+	margin-top: 30vh;
 	height: 23%;
 	width: 50%;
 	background-color: #231520;
@@ -38,6 +37,8 @@ h1 {
 	color: #d9d1cf;
 	font-size: 10vh;
 	opacity: 0.7;
+	padding-bottom: 3vh;
+
 }
 
 
@@ -48,7 +49,7 @@ h1 {
 	position: relative;
 	font-size: 2vh;
 	background-color: #d9d1cf;
-	margin-left: 40%;
+	margin-left: 37%;
 	margin-top: -4vh;
 	color: #231520;
 	text-align: center;
@@ -68,7 +69,7 @@ h1 {
 }
 
 p {
-	margin-top: -5%;
+	margin-top: -1vh;
 }
 hr {
 	max-width: 60%;
@@ -84,12 +85,12 @@ hr {
 	opacity: 0.8;
 }
 .heading1 {
-	margin-top: 7%;
-	padding-top: 3%;
+	margin-top: 3%;
 	text-align: left;
 	font-size: 25pt;
 	font-family: 'Playfair Display', serif;
 	height: 100%;
+	padding-bottom: 2%;
 }
 
 .title {
@@ -107,20 +108,16 @@ hr {
 
 /*page one style*/
 
-.heading1 {
-	height: 100%;
-}
-}
 .imagecontainer {
 	position: relative;
 }
 
 img {
 	height: 100%;
-	min-height: 100vh;
+	max-width: 25vw;
 	float: left;
-	width: 30vw;
 	margin-left: 2vw;
+	margin-top: 2vh;
 }
 
 /*style about text*/
@@ -134,7 +131,7 @@ img {
 .description {
 	position: relative;
 	font-size: 3vh;
-	width: 55vw;
+	width: 50vw;
 	float: right;
 	margin-right: 20%;
 }
@@ -212,9 +209,9 @@ img {
 	display: inline-block;
 	margin-top: 1vh;
 	padding-left: 1.5vw;
-	padding-right: 1.5vw;
+	padding-right: 6.5vw;
 	padding-bottom: 1.5vh;
-	width: 45.5%;
+	width: 34%;
 	font-size: 5vh;
 	color: #231f20;
 	font-weight: bold;
@@ -264,36 +261,21 @@ img {
 	}
 
 	.shape {
-		width: 32vw:;
-		font-size: 10vw;
+		font-size: 6.5vw;
 	}
 
 	.transparentLeft {
-		font-size: 1.9vw;
+		font-size: 1.5vw;
 	}
 	.transparentRight {
-		font-size: 1.9vw;
+		font-size: 1.5vw;
 	}
-	.headerDes{
-
-		width: 125vw;
-	}
-	.bodyDes {
-
-		width: 100vw;
-	}
-	.bar {
-		width: 50vw;
-	}
-		.contact {
-		width: 200vw;
-	}
+	
 }
 
 @media only screen and (max-height: 650px) {
 
 	.shape {
-		height: 20vh;
 		font-size: 10vh;
 	}
 
@@ -303,27 +285,26 @@ img {
 	.transparentRight {
 		font-size: 1.9vh;
 	}
+
 }
+
 
 @media only screen and (max-height: 650px) and (max-width: 850px) {
 
 	.shape {
-		width: 32vw:;
-		height: 20vh;
-		font-size: 10vh;
+		font-size: 4.5vh;
 	}
 
 	.transparentLeft {
-		font-size: 1.9vh;
+		font-size: 1vh;
 	}
 	.transparentRight {
-		font-size: 1.9vh;
+		font-size: 1vh;
 	}
 
-	.contact {
-		width: 100%;
+		.contact {
+		width: 200vw;
 	}
-
 
 }
 
